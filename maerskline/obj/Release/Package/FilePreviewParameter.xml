@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Mearsk" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\danen\\Desktop\\3RD\ Year\ Assignments\\Semester\ 2\\DDAC\\maerskline-Danen-Latest\ Ver2\\maerskline\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\danen\\Desktop\\3RD\ Year\ Assignments\\Semester\ 2\\DDAC\\maerskline-Danen-Latest\ Ver2\\maerskline\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="Mearsk/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\danen\\Desktop\\3RD\ Year\ Assignments\\Semester\ 2\\DDAC\\maerskline-Danen-Latest\ Ver2\\maerskline\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:tp036022.database.windows.net,1433;Initial Catalog=Mearsk;User ID=tp036022@tp036022.database.windows.net;Password=@puthebest1" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\danen\\Desktop\\3RD\ Year\ Assignments\\Semester\ 2\\DDAC\\maerskline-Danen-Latest\ Ver2\\maerskline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="maerskDB-Web.config Connection String" description="" value="metadata=res://*/Models.maerskModel.csdl|res://*/Models.maerskModel.ssdl|res://*/Models.maerskModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=tcp:tp036022.database.windows.net,1433;Initial Catalog=Mearsk;User Id=tp036022@tp036022.database.windows.net;Password=@puthebest1&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\danen\\Desktop\\3RD\ Year\ Assignments\\Semester\ 2\\DDAC\\maerskline-Danen-Latest\ Ver2\\maerskline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='maerskDB']/@connectionString" />
+  </parameter>
+</parameters>
